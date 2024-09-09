@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d5860f6-bec1-4dac-b087-c2dcf38d8e1f" name="Changes" comment="write readme to setup">
+    <list default="true" id="8d5860f6-bec1-4dac-b087-c2dcf38d8e1f" name="Changes" comment="add querydsl library">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/varGenerator.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/varGenerator_be/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_be/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_be/src/test/java/com/example/vargenerator/api/controller/VarControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_be/src/test/java/com/example/vargenerator/api/controller/VarControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_fe/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_fe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_fe/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/varGenerator_fe/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/varGenerator_fe/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +34,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/varGenerator_be">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -33,12 +44,32 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="varGenerator" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="varGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="varGenerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,10 +86,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build varGenerator_be.executor": "Run",
+    "Gradle.varGenerator_be [build].executor": "Run",
+    "Gradle.varGenerator_be [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.VarGeneratorApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hongchanghyeong/Desktop/study/varGenerator",
+    "last_opened_file_path": "/Users/hongchanghyeong/Desktop/study/varGenerator/varGenerator_fe/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,10 +109,66 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.12699747",
     "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "/Users/hongchanghyeong/Desktop/study/varGenerator/varGenerator_fe/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/varGenerator_fe/src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.vargenerator.api.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.varGenerator_be [build]">
+    <configuration name="varGenerator_be [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/varGenerator_be" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="varGenerator_be [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/varGenerator_be" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="VarGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="varGenerator.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.vargenerator.VarGeneratorApplication" />
@@ -78,6 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.varGenerator_be [build]" />
+        <item itemvalue="Gradle.varGenerator_be [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -98,7 +202,8 @@
       <workItem from="1725680835379" duration="535000" />
       <workItem from="1725681380769" duration="146000" />
       <workItem from="1725681534482" duration="22000" />
-      <workItem from="1725681598653" duration="514000" />
+      <workItem from="1725681598653" duration="2935000" />
+      <workItem from="1725869837579" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -124,7 +229,55 @@
       <option name="project" value="LOCAL" />
       <updated>1725681997857</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add yml">
+      <option name="closed" value="true" />
+      <created>1725682365099</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725682365099</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add domain">
+      <option name="closed" value="true" />
+      <created>1725685077424</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725685077424</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add default api">
+      <option name="closed" value="true" />
+      <created>1725685153993</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725685153993</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add default api">
+      <option name="closed" value="true" />
+      <created>1725685306990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725685306990</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add default test">
+      <option name="closed" value="true" />
+      <created>1725685342095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725685342095</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add querydsl library">
+      <option name="closed" value="true" />
+      <created>1725870161481</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725870161481</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +287,11 @@
     <MESSAGE value="init" />
     <MESSAGE value="default libraries" />
     <MESSAGE value="write readme to setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="write readme to setup" />
+    <MESSAGE value="add yml" />
+    <MESSAGE value="add domain" />
+    <MESSAGE value="add default api" />
+    <MESSAGE value="add default test" />
+    <MESSAGE value="add querydsl library" />
+    <option name="LAST_COMMIT_MESSAGE" value="add querydsl library" />
   </component>
 </project>

@@ -12,6 +12,7 @@
     yarn add typescript --dev
     npx tsc --init -> 
     yarn add @types/lodash --dev
+    yarn add react-router-dom
 
 
     yarn start dev
